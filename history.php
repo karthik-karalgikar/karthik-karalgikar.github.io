@@ -82,6 +82,6 @@ if ($result->num_rows > 0) {
 <?php
   }
 ?>
-<button onclick="location.href='index.html'">
-Go to Home Page</button>
+<a href = "https://karthik-karalgikar.github.io./"><button type = 'submit' class = 'btn'>Go to Home Page</button></a>
+
 
