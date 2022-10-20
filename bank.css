@@ -1,0 +1,155 @@
+body{
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 960px;
+    margin-inline: auto;
+    padding-inline: 15px;
+}
+/* ======================== */
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: 
+    space-between;
+    
+}
+.nav__item{
+    font-size: 23px;
+    text-align: left;
+}
+.nav__logo{
+    color: #fff;
+    font-size: larger;
+    
+}
+.nav__list{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+.nav__link{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+.nav__link::after{
+    content: '';
+    position: absolute;
+    left: 0;bottom: 0;
+    width: 100%;height: 2px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+}
+.nav__link:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 2.5;
+    color: black;
+}
+
+html{
+    box-sizing: border-box;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.panel{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 90%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.transfer-plan{
+    border-bottom: 2px solid #e1f1ff;
+}
+
+.transfer-plan:last-child{
+    border-bottom: none;
+}
+
+.pricing-img{
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+.pricing-header{
+    color: #888;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.pricing-features{
+    margin: 50px 0 25px;
+    color: #016ff9;
+}
+
+.pricing-features-item{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 2px solid #e1f1ff;
+}
+
+.pricing-features-item:last-child{
+    border-bottom: 2px solid #e1f1ff;
+}
+
+.pricing-button{
+    border: 2px solid #9dd1ff;
+    border-radius: 10px;
+    color: #348efe;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+}
+
+.pricing-button:hover,.pricing-button:focus{
+    background-color: #e1f1ff ;
+}
+
+.pricing-button.is-featured {
+    background-color: #48aaff;
+    color: white;
+}
+
+.pricing-button.is-featured:hover,.pricing-button.is-featured:focus{
+    background-color: #269aff;
+    color: white;
+}
+
+@media (min-width: 900px){
+    .panel{
+        flex-direction: row;
+    }
+    .transfer-plan{
+        border-bottom: none;
+        border-right: 2px solid #e1f1ff;
+        padding: 25px 50px;
+    }
+    .transfer-plan:last-child{
+        border-right: none;
+    }
+}
