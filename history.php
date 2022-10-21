@@ -1,3 +1,6 @@
+<h1 align="center">The Sparks Bank</h1>
+<h3 align="center">View Transaction History</h3>
+
 <?php
 $servername = "localhost";
 $username = "root";
@@ -59,7 +62,8 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
 ?>
-<table>
+<div class="center">
+<table style="width:820px; border: 1px solid black">
     <thead>
         <th>Sender</th>
         <th>Receiver</th>
@@ -77,11 +81,75 @@ if ($result->num_rows > 0) {
       </tr>';
       }
 ?>
-      </table>
+</table>
+</div>
       
 <?php
   }
 ?>
-<a href = "https://karthik-karalgikar.github.io./"><button type = 'submit' class = 'btn'>Go to Home Page</button></a>
+<br><a href = "https://karthik-karalgikar.github.io./"><button class = 'home-button'>Go to Home Page</button></a></br>
 
+<html>
+<style>
+    table, th, td{
+        box-shadow: 2px 2px 10px black;
+        border-radius: 0.1px;
+        font-weight: bold;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid;
+        width: 50%;
+        border-collapse: collapse; 
+        text-align: center; 
+        height: 150px;
+    }
 
+    th, td{
+        height:70px;
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th{
+        background-color: #60a9ff;
+    }
+
+    .home-button{
+    border: 2px solid #9dd1ff;
+    border-radius: 10px;
+    color: #348efe;
+    display: inline-block;
+    padding: 17px 30px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+    background-color: #48aaff;
+    color: black;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    }
+    .home-button:hover,.home-button:focus{
+    background-color: #e1f1ff ;
+    }
+
+    .center {
+        margin: auto;
+        width: 57.5%;
+        border: 3px solid #73AD21;
+        padding: 10px;
+        text-align: center;
+        border: 3px solid black;
+    }
+
+    html{
+    background-color: #e0ffff;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    }
+  
+  </style>
+  </html>
