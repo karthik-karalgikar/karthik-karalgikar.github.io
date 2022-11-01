@@ -18,3 +18,5 @@ The amount which is entered, is added to the receiver's current balance and subt
 <img width="1429" alt="Screenshot 2022-11-01 at 10 30 23 PM" src="https://user-images.githubusercontent.com/91562537/199292381-00a4009a-dd9b-4024-8b96-4f8eb8bbc5cb.png">
 
 <img width="1433" alt="Screenshot 2022-11-01 at 10 31 39 PM" src="https://user-images.githubusercontent.com/91562537/199292612-f7255fcb-7010-4419-8923-97cde5c56768.png">
+
+<img width="1428" alt="Screenshot 2022-11-01 at 10 32 55 PM" src="https://user-images.githubusercontent.com/91562537/199292858-89899c20-ebcb-4d59-b97d-43225d7b6f4e.png">
