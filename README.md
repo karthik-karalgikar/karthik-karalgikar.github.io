@@ -12,3 +12,5 @@ The user clicks on the "Send Money" option, and a window is displayed where the 
 And when the user clicks on submit, the transaction can view the transaction history. 
 
 The amount which is entered, is added to the receiver's current balance and subtracted from the sender's balance. 
+
+<img width="1431" alt="Screenshot 2022-11-01 at 10 01 31 PM" src="https://user-images.githubusercontent.com/91562537/199292015-6126f74a-0b44-4955-95c6-3600b40e3927.png">
