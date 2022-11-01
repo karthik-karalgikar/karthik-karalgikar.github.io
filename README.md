@@ -1,8 +1,8 @@
-A simple dynamic Basic Bank Management System
+## A Simple Dynamic Basic Bank Management System
 
-Frontend - HTML, CSS ----
-Backend - PHP ----
-Database - MySQL 
+### Frontend - HTML, CSS 
+### Backend - PHP 
+### Database - MySQL 
 
 Created a dummy database for 10 customers. Customer table has basic fields such as Name, Email, Address and Current Balance.
 Transfer table records all transfers that happened. 
